@@ -1,6 +1,6 @@
-const Rijndael = require('rijndael-js');
-const padder = require('pkcs7-padding')
-const crypto = require('crypto')
+import Rijndael from 'rijndael-js'
+import padder from 'pkcs7-padding'
+import crypto from 'crypto'
 
 let plainText, padded, key, iv, cipher, encrypted
 
@@ -25,3 +25,4 @@ const decryptor = () => {
     const clearText = decrypted.toString('utf8')
     console.log(clearText)
 }
+decryptor()
