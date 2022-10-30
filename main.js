@@ -1,6 +1,6 @@
-import RijndaelManaged from 'rijndael-js'
-import padder from 'pkcs7-padding'
-import crypto from 'crypto'
+const RijndaelManaged =  require('./p2/package/index.js')
+const padder = require('./p1/package/index.js')
+const crypto = require("node:crypto")
 
 let plainText, padded, keyData, ivData, cipher, encryptedData
 

@@ -1,0 +1,33 @@
+{
+  "name": "pkcs7-padding",
+  "version": "0.1.1",
+  "description": "A tiny package that handles PKCS #7 padding for both strings and byte arrays",
+  "keywords": [
+    "pkcs7",
+    "padding"
+  ],
+  "author": "neeh <nicolas.gougeon1@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=jasmine.json"
+  },
+  "devDependencies": {
+    "jasmine": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeh/pkcs7-padding.git"
+  },
+  "homepage": "https://github.com/neeh/pkcs7-padding#readme",
+  "bugs": {
+    "url": "https://github.com/neeh/pkcs7-padding/issues"
+  },
+  "directories": {
+    "doc": ".",
+    "test": "test"
+  }
+}
